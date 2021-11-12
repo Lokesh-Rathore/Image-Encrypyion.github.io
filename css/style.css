@@ -1,0 +1,161 @@
+body {
+  background-color: peachpuff;
+}
+
+h1{
+  text-align: center;
+  font-size: 4em;
+  color: black;
+}
+
+.canvases{
+  position: relative;  
+}
+
+canvas{
+  background: linear-gradient(
+    to right,
+    rgba(245,70,66,0.75),
+    rgba(36, 103, 170, 0.75)
+  );
+  width: 30.7%;
+  height: 22vw;
+  border: 1px solid lightgrey;
+  margin: 1%;
+  background-color: #f5f5ff;
+}
+
+.names{
+  position: absolute;
+  font-size: 3.5vw;
+  font-style: italic;
+  text-align: center;
+  color: indigo;
+}
+
+#p1{
+  left: 11%;
+  top: 22%;
+}
+
+#p2{
+  left: 45%;
+  top: 22%;
+}
+
+#p3{
+  left: 79%;
+  top: 22%; 
+}
+
+#fgchoose{
+  font-size: 1.2vw;
+  margin-left: 7%;
+  color: indigo;
+  background: linear-gradient(
+    to right,
+    rgba(245,70,66,0.75),
+    rgba(255, 255, 255, 0.75)
+  );
+}
+
+#bgchoose{
+  font-size: 1.2vw;
+  margin-left: 11%;
+  color: indigo;
+  background: linear-gradient(
+    to right,
+    rgba(245,70,66,0.75),
+    rgba(255, 255, 255, 0.75)
+  );
+}
+
+.b1{
+  font-size: 2vw;
+  padding: 7px 18px;
+  border-radius: 13px;
+  background-color: rgb(198, 198, 243);
+  color: black;
+  border-width: 2px;
+}
+.b1:hover {
+  background-color: #957DAD;
+  color: rgb(255, 255, 255);
+}
+
+#com{
+  margin-left: 8%; 
+  margin-bottom: 1%;
+}
+
+#download_btn{
+  float: right;
+  margin-right: 10%;
+  background-color: #ff89ad;
+  color: black;
+  border-width: 2px;
+}
+#download_btn:hover {
+  background-color: #f86f98;
+  color: white;
+}
+
+.second{
+  margin-top: 10%;
+}
+
+#p4{
+  left: 9%;
+  top: 22%;
+}
+
+#p5{
+  left: 41%;
+  top: 22%;
+}
+
+#p6{
+  left: 74%;
+  top: 22%; 
+}
+
+#img{
+  font-size: 1.2vw;
+  margin-left: 7%;
+  color: indigo;
+  background: linear-gradient(
+    to right,
+    rgba(245,70,66,0.75),
+    rgba(255, 255, 255, 0.75)
+  );
+}
+
+#ext{
+  margin-left: 31%;
+}
+
+footer{
+  text-align: center;
+  size: 2rem;
+  
+  color: white;
+  
+}
+footer:hover{
+  animation-name: gt;
+  animation-duration: 1.2s;
+  animation-fill-mode: forwards;
+}
+.foot a {
+  text-decoration: none;
+}
+
+@keyframes gt {
+  0% {
+    color: white;
+  }
+  100%{
+    color: black;
+    transform: rotate(720deg);
+  }
+}
